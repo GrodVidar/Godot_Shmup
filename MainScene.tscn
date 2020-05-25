@@ -1,0 +1,2347 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Wall_Tile.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Enemy_1.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Background.tscn" type="PackedScene" id=4]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 512, 304 )
+
+[node name="Enemy_1" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1496, 520 )
+
+[node name="Walls" type="Node2D" parent="."]
+
+[node name="Wall_Tile149" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3808, 3104 )
+
+[node name="Wall_Tile150" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 3104 )
+
+[node name="Wall_Tile151" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3680, 3104 )
+
+[node name="Wall_Tile" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 224 )
+
+[node name="Wall_Tile16" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 160 )
+
+[node name="Wall_Tile2" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 544 )
+
+[node name="Wall_Tile17" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 480 )
+
+[node name="Wall_Tile33" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 96 )
+
+[node name="Wall_Tile4" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 928 )
+
+[node name="Wall_Tile19" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 864 )
+
+[node name="Wall_Tile3" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1248 )
+
+[node name="Wall_Tile18" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1184 )
+
+[node name="Wall_Tile54" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 800 )
+
+[node name="Wall_Tile6" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1760 )
+
+[node name="Wall_Tile21" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1696 )
+
+[node name="Wall_Tile5" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2080 )
+
+[node name="Wall_Tile20" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2016 )
+
+[node name="Wall_Tile108" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1632 )
+
+[node name="Wall_Tile8" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2592 )
+
+[node name="Wall_Tile23" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2528 )
+
+[node name="Wall_Tile7" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2912 )
+
+[node name="Wall_Tile22" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2848 )
+
+[node name="Wall_Tile117" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2464 )
+
+[node name="Wall_Tile216" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 224 )
+
+[node name="Wall_Tile215" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 160 )
+
+[node name="Wall_Tile15" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 544 )
+
+[node name="Wall_Tile214" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 480 )
+
+[node name="Wall_Tile213" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 96 )
+
+[node name="Wall_Tile14" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 928 )
+
+[node name="Wall_Tile212" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 864 )
+
+[node name="Wall_Tile352" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2336 )
+
+[node name="Wall_Tile351" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2272 )
+
+[node name="Wall_Tile368" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2784 )
+
+[node name="Wall_Tile367" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2720 )
+
+[node name="Wall_Tile399" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1248 )
+
+[node name="Wall_Tile398" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1184 )
+
+[node name="Wall_Tile397" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1696 )
+
+[node name="Wall_Tile396" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1632 )
+
+[node name="Wall_Tile13" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1248 )
+
+[node name="Wall_Tile211" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1184 )
+
+[node name="Wall_Tile210" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 800 )
+
+[node name="Wall_Tile350" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2592 )
+
+[node name="Wall_Tile349" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2208 )
+
+[node name="Wall_Tile366" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 3040 )
+
+[node name="Wall_Tile365" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2656 )
+
+[node name="Wall_Tile395" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1504 )
+
+[node name="Wall_Tile394" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1120 )
+
+[node name="Wall_Tile393" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1952 )
+
+[node name="Wall_Tile392" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1568 )
+
+[node name="Wall_Tile284" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 928 )
+
+[node name="Wall_Tile283" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 864 )
+
+[node name="Wall_Tile282" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1248 )
+
+[node name="Wall_Tile281" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1184 )
+
+[node name="Wall_Tile430" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1184 )
+
+[node name="Wall_Tile429" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1120 )
+
+[node name="Wall_Tile280" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 800 )
+
+[node name="Wall_Tile294" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1568 )
+
+[node name="Wall_Tile293" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1504 )
+
+[node name="Wall_Tile292" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1888 )
+
+[node name="Wall_Tile291" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1824 )
+
+[node name="Wall_Tile428" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1504 )
+
+[node name="Wall_Tile427" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1440 )
+
+[node name="Wall_Tile426" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1824 )
+
+[node name="Wall_Tile425" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1760 )
+
+[node name="Wall_Tile336" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2848 )
+
+[node name="Wall_Tile335" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2784 )
+
+[node name="Wall_Tile290" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1440 )
+
+[node name="Wall_Tile424" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1376 )
+
+[node name="Wall_Tile12" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1760 )
+
+[node name="Wall_Tile209" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1696 )
+
+[node name="Wall_Tile11" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2080 )
+
+[node name="Wall_Tile208" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2016 )
+
+[node name="Wall_Tile207" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1632 )
+
+[node name="Wall_Tile10" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2592 )
+
+[node name="Wall_Tile206" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2528 )
+
+[node name="Wall_Tile9" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2912 )
+
+[node name="Wall_Tile24" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2848 )
+
+[node name="Wall_Tile205" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2464 )
+
+[node name="Wall_Tile32" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 32 )
+
+[node name="Wall_Tile39" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 352, 32 )
+
+[node name="Wall_Tile44" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 672, 32 )
+
+[node name="Wall_Tile69" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1312, 32 )
+
+[node name="Wall_Tile68" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 32 )
+
+[node name="Wall_Tile148" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 352, 3104 )
+
+[node name="Wall_Tile147" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 672, 3104 )
+
+[node name="Wall_Tile146" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1312, 3104 )
+
+[node name="Wall_Tile145" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 3104 )
+
+[node name="Wall_Tile84" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2272, 32 )
+
+[node name="Wall_Tile83" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2592, 32 )
+
+[node name="Wall_Tile99" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3232, 32 )
+
+[node name="Wall_Tile98" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3552, 32 )
+
+[node name="Wall_Tile177" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2272, 3104 )
+
+[node name="Wall_Tile176" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2592, 3104 )
+
+[node name="Wall_Tile175" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3232, 3104 )
+
+[node name="Wall_Tile174" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3552, 3104 )
+
+[node name="Wall_Tile34" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 416 )
+
+[node name="Wall_Tile36" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 352 )
+
+[node name="Wall_Tile37" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 288 )
+
+[node name="Wall_Tile47" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 736 )
+
+[node name="Wall_Tile46" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 672 )
+
+[node name="Wall_Tile107" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1568 )
+
+[node name="Wall_Tile106" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1504 )
+
+[node name="Wall_Tile116" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2400 )
+
+[node name="Wall_Tile115" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2336 )
+
+[node name="Wall_Tile45" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 608 )
+
+[node name="Wall_Tile53" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1120 )
+
+[node name="Wall_Tile52" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1056 )
+
+[node name="Wall_Tile51" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 992 )
+
+[node name="Wall_Tile50" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1440 )
+
+[node name="Wall_Tile49" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1376 )
+
+[node name="Wall_Tile48" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1312 )
+
+[node name="Wall_Tile105" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1952 )
+
+[node name="Wall_Tile104" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1888 )
+
+[node name="Wall_Tile103" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 1824 )
+
+[node name="Wall_Tile102" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2272 )
+
+[node name="Wall_Tile101" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2208 )
+
+[node name="Wall_Tile100" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2144 )
+
+[node name="Wall_Tile114" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2784 )
+
+[node name="Wall_Tile113" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2720 )
+
+[node name="Wall_Tile112" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2656 )
+
+[node name="Wall_Tile204" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 416 )
+
+[node name="Wall_Tile203" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 352 )
+
+[node name="Wall_Tile202" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 288 )
+
+[node name="Wall_Tile201" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 736 )
+
+[node name="Wall_Tile348" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2144 )
+
+[node name="Wall_Tile391" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1056 )
+
+[node name="Wall_Tile200" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 672 )
+
+[node name="Wall_Tile199" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1568 )
+
+[node name="Wall_Tile198" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1504 )
+
+[node name="Wall_Tile197" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2400 )
+
+[node name="Wall_Tile196" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2336 )
+
+[node name="Wall_Tile195" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 608 )
+
+[node name="Wall_Tile194" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1120 )
+
+[node name="Wall_Tile193" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1056 )
+
+[node name="Wall_Tile192" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 992 )
+
+[node name="Wall_Tile347" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2528 )
+
+[node name="Wall_Tile346" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2464 )
+
+[node name="Wall_Tile345" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2400 )
+
+[node name="Wall_Tile364" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2976 )
+
+[node name="Wall_Tile363" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2912 )
+
+[node name="Wall_Tile362" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 2848 )
+
+[node name="Wall_Tile390" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1440 )
+
+[node name="Wall_Tile389" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1376 )
+
+[node name="Wall_Tile388" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1312 )
+
+[node name="Wall_Tile387" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1888 )
+
+[node name="Wall_Tile386" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1824 )
+
+[node name="Wall_Tile385" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 1760 )
+
+[node name="Wall_Tile279" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1120 )
+
+[node name="Wall_Tile423" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1056 )
+
+[node name="Wall_Tile278" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1056 )
+
+[node name="Wall_Tile277" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 992 )
+
+[node name="Wall_Tile289" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1760 )
+
+[node name="Wall_Tile288" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1696 )
+
+[node name="Wall_Tile287" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1632 )
+
+[node name="Wall_Tile422" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1696 )
+
+[node name="Wall_Tile421" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1632 )
+
+[node name="Wall_Tile420" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1568 )
+
+[node name="Wall_Tile191" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1440 )
+
+[node name="Wall_Tile190" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1376 )
+
+[node name="Wall_Tile189" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1312 )
+
+[node name="Wall_Tile276" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1376 )
+
+[node name="Wall_Tile275" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1312 )
+
+[node name="Wall_Tile286" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 2016 )
+
+[node name="Wall_Tile285" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 1952 )
+
+[node name="Wall_Tile419" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1312 )
+
+[node name="Wall_Tile418" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1248 )
+
+[node name="Wall_Tile417" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1952 )
+
+[node name="Wall_Tile416" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 1888 )
+
+[node name="Wall_Tile434" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 992 )
+
+[node name="Wall_Tile433" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 928 )
+
+[node name="Wall_Tile446" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 1376 )
+
+[node name="Wall_Tile445" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 1312 )
+
+[node name="Wall_Tile454" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 1760 )
+
+[node name="Wall_Tile453" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 1696 )
+
+[node name="Wall_Tile462" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 2592 )
+
+[node name="Wall_Tile461" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 2528 )
+
+[node name="Wall_Tile470" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 2464 )
+
+[node name="Wall_Tile469" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 2400 )
+
+[node name="Wall_Tile478" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 2336 )
+
+[node name="Wall_Tile477" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 2272 )
+
+[node name="Wall_Tile334" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2976 )
+
+[node name="Wall_Tile337" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 3040 )
+
+[node name="Wall_Tile333" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2912 )
+
+[node name="Wall_Tile188" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1952 )
+
+[node name="Wall_Tile187" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1888 )
+
+[node name="Wall_Tile186" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 1824 )
+
+[node name="Wall_Tile185" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2272 )
+
+[node name="Wall_Tile184" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2208 )
+
+[node name="Wall_Tile183" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2144 )
+
+[node name="Wall_Tile182" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2784 )
+
+[node name="Wall_Tile181" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2720 )
+
+[node name="Wall_Tile180" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2656 )
+
+[node name="Wall_Tile111" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 3104 )
+
+[node name="Wall_Tile110" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 3040 )
+
+[node name="Wall_Tile109" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 32, 2976 )
+
+[node name="Wall_Tile179" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 3040 )
+
+[node name="Wall_Tile178" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 2976 )
+
+[node name="Wall_Tile35" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 96, 32 )
+
+[node name="Wall_Tile38" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 416, 32 )
+
+[node name="Wall_Tile43" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 736, 32 )
+
+[node name="Wall_Tile26" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 32 )
+
+[node name="Wall_Tile25" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 160, 32 )
+
+[node name="Wall_Tile28" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 32 )
+
+[node name="Wall_Tile27" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 32 )
+
+[node name="Wall_Tile31" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 480, 32 )
+
+[node name="Wall_Tile30" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 544, 32 )
+
+[node name="Wall_Tile29" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 32 )
+
+[node name="Wall_Tile42" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 800, 32 )
+
+[node name="Wall_Tile41" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 32 )
+
+[node name="Wall_Tile40" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 32 )
+
+[node name="Wall_Tile67" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1056, 32 )
+
+[node name="Wall_Tile66" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 32 )
+
+[node name="Wall_Tile65" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1696, 32 )
+
+[node name="Wall_Tile64" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 32 )
+
+[node name="Wall_Tile63" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1120, 32 )
+
+[node name="Wall_Tile62" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 32 )
+
+[node name="Wall_Tile217" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 96 )
+
+[node name="Wall_Tile218" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 160 )
+
+[node name="Wall_Tile219" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 224 )
+
+[node name="Wall_Tile220" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 288 )
+
+[node name="Wall_Tile221" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 352 )
+
+[node name="Wall_Tile222" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 416 )
+
+[node name="Wall_Tile223" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 480 )
+
+[node name="Wall_Tile224" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 544 )
+
+[node name="Wall_Tile225" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 608 )
+
+[node name="Wall_Tile226" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 672 )
+
+[node name="Wall_Tile227" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 736 )
+
+[node name="Wall_Tile228" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1248, 736 )
+
+[node name="Wall_Tile229" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1312, 736 )
+
+[node name="Wall_Tile230" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 736 )
+
+[node name="Wall_Tile234" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 736 )
+
+[node name="Wall_Tile233" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 736 )
+
+[node name="Wall_Tile242" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 736 )
+
+[node name="Wall_Tile241" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1696, 736 )
+
+[node name="Wall_Tile240" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1760, 736 )
+
+[node name="Wall_Tile239" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 736 )
+
+[node name="Wall_Tile238" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 736 )
+
+[node name="Wall_Tile237" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 736 )
+
+[node name="Wall_Tile236" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 736 )
+
+[node name="Wall_Tile235" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 736 )
+
+[node name="Wall_Tile250" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 736 )
+
+[node name="Wall_Tile249" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 736 )
+
+[node name="Wall_Tile248" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 736 )
+
+[node name="Wall_Tile247" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2464, 736 )
+
+[node name="Wall_Tile246" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2272, 736 )
+
+[node name="Wall_Tile245" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 736 )
+
+[node name="Wall_Tile244" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2400, 736 )
+
+[node name="Wall_Tile243" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2400, 736 )
+
+[node name="Wall_Tile258" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 736 )
+
+[node name="Wall_Tile257" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2592, 736 )
+
+[node name="Wall_Tile256" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2656, 736 )
+
+[node name="Wall_Tile255" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2912, 736 )
+
+[node name="Wall_Tile313" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2912, 2016 )
+
+[node name="Wall_Tile415" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 1952 )
+
+[node name="Wall_Tile332" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2912, 2720 )
+
+[node name="Wall_Tile254" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2720, 736 )
+
+[node name="Wall_Tile253" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 736 )
+
+[node name="Wall_Tile252" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 736 )
+
+[node name="Wall_Tile251" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 736 )
+
+[node name="Wall_Tile266" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2976, 736 )
+
+[node name="Wall_Tile265" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3040, 736 )
+
+[node name="Wall_Tile264" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3104, 736 )
+
+[node name="Wall_Tile263" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3360, 736 )
+
+[node name="Wall_Tile262" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3168, 736 )
+
+[node name="Wall_Tile261" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3232, 736 )
+
+[node name="Wall_Tile260" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 736 )
+
+[node name="Wall_Tile259" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 736 )
+
+[node name="Wall_Tile274" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3424, 736 )
+
+[node name="Wall_Tile273" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3488, 736 )
+
+[node name="Wall_Tile272" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3552, 736 )
+
+[node name="Wall_Tile271" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3808, 736 )
+
+[node name="Wall_Tile270" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3616, 736 )
+
+[node name="Wall_Tile269" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3680, 736 )
+
+[node name="Wall_Tile268" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 736 )
+
+[node name="Wall_Tile267" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 736 )
+
+[node name="Wall_Tile344" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 2144 )
+
+[node name="Wall_Tile343" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 672, 2144 )
+
+[node name="Wall_Tile342" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 2144 )
+
+[node name="Wall_Tile341" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 736, 2144 )
+
+[node name="Wall_Tile340" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 800, 2144 )
+
+[node name="Wall_Tile339" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 2144 )
+
+[node name="Wall_Tile338" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 2144 )
+
+[node name="Wall_Tile359" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 2144 )
+
+[node name="Wall_Tile358" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 2144 )
+
+[node name="Wall_Tile361" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 96, 2144 )
+
+[node name="Wall_Tile360" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 160, 2144 )
+
+[node name="Wall_Tile357" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 544, 2144 )
+
+[node name="Wall_Tile356" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 352, 2144 )
+
+[node name="Wall_Tile355" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 416, 2144 )
+
+[node name="Wall_Tile354" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 480, 2144 )
+
+[node name="Wall_Tile353" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 480, 2144 )
+
+[node name="Wall_Tile384" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 1056 )
+
+[node name="Wall_Tile383" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 1056 )
+
+[node name="Wall_Tile382" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2272, 1056 )
+
+[node name="Wall_Tile381" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 1056 )
+
+[node name="Wall_Tile380" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 1056 )
+
+[node name="Wall_Tile379" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 1056 )
+
+[node name="Wall_Tile378" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 1056 )
+
+[node name="Wall_Tile377" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 1056 )
+
+[node name="Wall_Tile376" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 1056 )
+
+[node name="Wall_Tile375" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 1056 )
+
+[node name="Wall_Tile374" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 1056 )
+
+[node name="Wall_Tile373" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 1056 )
+
+[node name="Wall_Tile372" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1696, 1056 )
+
+[node name="Wall_Tile371" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1760, 1056 )
+
+[node name="Wall_Tile370" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 1056 )
+
+[node name="Wall_Tile369" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 1056 )
+
+[node name="Wall_Tile312" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2016 )
+
+[node name="Wall_Tile311" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2016 )
+
+[node name="Wall_Tile310" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2976, 2016 )
+
+[node name="Wall_Tile309" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3040, 2016 )
+
+[node name="Wall_Tile308" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3104, 2016 )
+
+[node name="Wall_Tile307" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3360, 2016 )
+
+[node name="Wall_Tile306" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3168, 2016 )
+
+[node name="Wall_Tile305" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3232, 2016 )
+
+[node name="Wall_Tile304" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 2016 )
+
+[node name="Wall_Tile303" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 2016 )
+
+[node name="Wall_Tile302" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3424, 2016 )
+
+[node name="Wall_Tile301" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3488, 2016 )
+
+[node name="Wall_Tile300" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3552, 2016 )
+
+[node name="Wall_Tile414" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 1952 )
+
+[node name="Wall_Tile413" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 1952 )
+
+[node name="Wall_Tile432" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 992 )
+
+[node name="Wall_Tile431" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 992 )
+
+[node name="Wall_Tile436" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 1056 )
+
+[node name="Wall_Tile435" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 1056 )
+
+[node name="Wall_Tile438" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 800, 992 )
+
+[node name="Wall_Tile437" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 800, 992 )
+
+[node name="Wall_Tile444" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 672, 1376 )
+
+[node name="Wall_Tile443" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 672, 1376 )
+
+[node name="Wall_Tile442" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 1440 )
+
+[node name="Wall_Tile441" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 1440 )
+
+[node name="Wall_Tile440" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 544, 1376 )
+
+[node name="Wall_Tile439" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 544, 1376 )
+
+[node name="Wall_Tile452" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 1760 )
+
+[node name="Wall_Tile451" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 1760 )
+
+[node name="Wall_Tile450" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 1824 )
+
+[node name="Wall_Tile449" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 1824 )
+
+[node name="Wall_Tile448" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 1760 )
+
+[node name="Wall_Tile447" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 1760 )
+
+[node name="Wall_Tile460" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 2592 )
+
+[node name="Wall_Tile459" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 2592 )
+
+[node name="Wall_Tile458" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 2656 )
+
+[node name="Wall_Tile457" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 2656 )
+
+[node name="Wall_Tile456" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 2592 )
+
+[node name="Wall_Tile455" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 2592 )
+
+[node name="Wall_Tile468" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 2464 )
+
+[node name="Wall_Tile467" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 2464 )
+
+[node name="Wall_Tile466" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 2528 )
+
+[node name="Wall_Tile465" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 2528 )
+
+[node name="Wall_Tile464" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 2464 )
+
+[node name="Wall_Tile463" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 2464 )
+
+[node name="Wall_Tile476" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2592, 2336 )
+
+[node name="Wall_Tile475" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2592, 2336 )
+
+[node name="Wall_Tile474" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 2400 )
+
+[node name="Wall_Tile473" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 2400 )
+
+[node name="Wall_Tile472" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2464, 2336 )
+
+[node name="Wall_Tile471" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2464, 2336 )
+
+[node name="Wall_Tile412" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 1952 )
+
+[node name="Wall_Tile411" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1632, 1952 )
+
+[node name="Wall_Tile410" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1696, 1952 )
+
+[node name="Wall_Tile409" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 1952 )
+
+[node name="Wall_Tile408" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1760, 1952 )
+
+[node name="Wall_Tile407" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 1952 )
+
+[node name="Wall_Tile406" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 1952 )
+
+[node name="Wall_Tile405" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 1952 )
+
+[node name="Wall_Tile404" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 1952 )
+
+[node name="Wall_Tile403" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 1952 )
+
+[node name="Wall_Tile402" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 1952 )
+
+[node name="Wall_Tile299" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3808, 2016 )
+
+[node name="Wall_Tile298" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3616, 2016 )
+
+[node name="Wall_Tile297" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3680, 2016 )
+
+[node name="Wall_Tile401" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 1952 )
+
+[node name="Wall_Tile400" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2272, 1952 )
+
+[node name="Wall_Tile296" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 2016 )
+
+[node name="Wall_Tile295" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 2016 )
+
+[node name="Wall_Tile331" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2720 )
+
+[node name="Wall_Tile330" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 2720 )
+
+[node name="Wall_Tile329" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2976, 2720 )
+
+[node name="Wall_Tile328" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3040, 2720 )
+
+[node name="Wall_Tile327" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3104, 2720 )
+
+[node name="Wall_Tile326" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3360, 2720 )
+
+[node name="Wall_Tile325" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3168, 2720 )
+
+[node name="Wall_Tile324" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3232, 2720 )
+
+[node name="Wall_Tile323" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 2720 )
+
+[node name="Wall_Tile322" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 2720 )
+
+[node name="Wall_Tile321" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3424, 2720 )
+
+[node name="Wall_Tile320" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3488, 2720 )
+
+[node name="Wall_Tile319" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3552, 2720 )
+
+[node name="Wall_Tile318" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3808, 2720 )
+
+[node name="Wall_Tile317" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3616, 2720 )
+
+[node name="Wall_Tile316" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3680, 2720 )
+
+[node name="Wall_Tile315" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 2720 )
+
+[node name="Wall_Tile314" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 2720 )
+
+[node name="Wall_Tile61" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1248, 32 )
+
+[node name="Wall_Tile60" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 32 )
+
+[node name="Wall_Tile59" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 32 )
+
+[node name="Wall_Tile58" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 32 )
+
+[node name="Wall_Tile57" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1760, 32 )
+
+[node name="Wall_Tile56" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 32 )
+
+[node name="Wall_Tile55" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 32 )
+
+[node name="Wall_Tile82" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 32 )
+
+[node name="Wall_Tile144" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 96, 3104 )
+
+[node name="Wall_Tile143" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 416, 3104 )
+
+[node name="Wall_Tile142" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 736, 3104 )
+
+[node name="Wall_Tile141" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 992, 3104 )
+
+[node name="Wall_Tile140" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 160, 3104 )
+
+[node name="Wall_Tile139" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 224, 3104 )
+
+[node name="Wall_Tile138" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 288, 3104 )
+
+[node name="Wall_Tile137" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 480, 3104 )
+
+[node name="Wall_Tile136" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 544, 3104 )
+
+[node name="Wall_Tile135" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 608, 3104 )
+
+[node name="Wall_Tile134" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 800, 3104 )
+
+[node name="Wall_Tile133" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 864, 3104 )
+
+[node name="Wall_Tile132" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 928, 3104 )
+
+[node name="Wall_Tile131" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1056, 3104 )
+
+[node name="Wall_Tile130" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1376, 3104 )
+
+[node name="Wall_Tile129" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1696, 3104 )
+
+[node name="Wall_Tile128" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1952, 3104 )
+
+[node name="Wall_Tile127" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1120, 3104 )
+
+[node name="Wall_Tile126" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1184, 3104 )
+
+[node name="Wall_Tile125" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1248, 3104 )
+
+[node name="Wall_Tile124" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1440, 3104 )
+
+[node name="Wall_Tile123" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1504, 3104 )
+
+[node name="Wall_Tile122" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1568, 3104 )
+
+[node name="Wall_Tile121" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1760, 3104 )
+
+[node name="Wall_Tile120" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1824, 3104 )
+
+[node name="Wall_Tile119" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 1888, 3104 )
+
+[node name="Wall_Tile118" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2016, 3104 )
+
+[node name="Wall_Tile81" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 32 )
+
+[node name="Wall_Tile80" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2656, 32 )
+
+[node name="Wall_Tile79" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2912, 32 )
+
+[node name="Wall_Tile78" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 32 )
+
+[node name="Wall_Tile77" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 32 )
+
+[node name="Wall_Tile76" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 32 )
+
+[node name="Wall_Tile75" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2400, 32 )
+
+[node name="Wall_Tile74" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2464, 32 )
+
+[node name="Wall_Tile73" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 32 )
+
+[node name="Wall_Tile72" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2720, 32 )
+
+[node name="Wall_Tile71" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 32 )
+
+[node name="Wall_Tile70" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 32 )
+
+[node name="Wall_Tile97" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2976, 32 )
+
+[node name="Wall_Tile96" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 32 )
+
+[node name="Wall_Tile95" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3616, 32 )
+
+[node name="Wall_Tile94" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 32 )
+
+[node name="Wall_Tile93" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3040, 32 )
+
+[node name="Wall_Tile92" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3104, 32 )
+
+[node name="Wall_Tile91" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3168, 32 )
+
+[node name="Wall_Tile90" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3360, 32 )
+
+[node name="Wall_Tile89" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3424, 32 )
+
+[node name="Wall_Tile88" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3488, 32 )
+
+[node name="Wall_Tile87" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3680, 32 )
+
+[node name="Wall_Tile86" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3744, 32 )
+
+[node name="Wall_Tile85" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3808, 32 )
+
+[node name="Wall_Tile173" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2336, 3104 )
+
+[node name="Wall_Tile172" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2656, 3104 )
+
+[node name="Wall_Tile171" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2912, 3104 )
+
+[node name="Wall_Tile170" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2080, 3104 )
+
+[node name="Wall_Tile169" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2144, 3104 )
+
+[node name="Wall_Tile168" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2208, 3104 )
+
+[node name="Wall_Tile167" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2400, 3104 )
+
+[node name="Wall_Tile166" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2464, 3104 )
+
+[node name="Wall_Tile165" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2528, 3104 )
+
+[node name="Wall_Tile164" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2720, 3104 )
+
+[node name="Wall_Tile163" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2784, 3104 )
+
+[node name="Wall_Tile162" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2848, 3104 )
+
+[node name="Wall_Tile161" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 2976, 3104 )
+
+[node name="Wall_Tile160" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3296, 3104 )
+
+[node name="Wall_Tile159" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3616, 3104 )
+
+[node name="Wall_Tile158" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3872, 3104 )
+
+[node name="Wall_Tile157" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3040, 3104 )
+
+[node name="Wall_Tile156" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3104, 3104 )
+
+[node name="Wall_Tile155" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3168, 3104 )
+
+[node name="Wall_Tile154" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3360, 3104 )
+
+[node name="Wall_Tile153" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3424, 3104 )
+
+[node name="Wall_Tile152" parent="Walls" instance=ExtResource( 2 )]
+position = Vector2( 3488, 3104 )
+
+[node name="Background" type="Node2D" parent="."]
+show_behind_parent = true
+
+[node name="Background" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 160 )
+
+[node name="Background2" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 160 )
+
+[node name="Background3" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 160 )
+
+[node name="Background4" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 416 )
+
+[node name="Background5" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 416 )
+
+[node name="Background6" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 416 )
+
+[node name="Background12" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 672 )
+
+[node name="Background11" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 672 )
+
+[node name="Background10" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 672 )
+
+[node name="Background9" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 928 )
+
+[node name="Background8" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 928 )
+
+[node name="Background7" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 928 )
+
+[node name="Background24" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 1184 )
+
+[node name="Background23" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 1184 )
+
+[node name="Background22" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 1184 )
+
+[node name="Background21" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 1440 )
+
+[node name="Background20" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 1440 )
+
+[node name="Background19" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 1440 )
+
+[node name="Background18" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 1696 )
+
+[node name="Background17" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 1696 )
+
+[node name="Background16" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 1696 )
+
+[node name="Background15" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 1952 )
+
+[node name="Background14" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 1952 )
+
+[node name="Background13" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 1952 )
+
+[node name="Background33" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 2208 )
+
+[node name="Background32" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 2208 )
+
+[node name="Background31" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 2208 )
+
+[node name="Background30" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 2464 )
+
+[node name="Background29" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 2464 )
+
+[node name="Background28" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 2464 )
+
+[node name="Background27" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 2720 )
+
+[node name="Background26" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 2720 )
+
+[node name="Background25" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 2720 )
+
+[node name="Background36" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 672, 2976 )
+
+[node name="Background35" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 416, 2976 )
+
+[node name="Background34" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 160, 2976 )
+
+[node name="Background72" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 160 )
+
+[node name="Background71" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 160 )
+
+[node name="Background70" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 160 )
+
+[node name="Background69" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 416 )
+
+[node name="Background68" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 416 )
+
+[node name="Background67" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 416 )
+
+[node name="Background66" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 672 )
+
+[node name="Background65" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 672 )
+
+[node name="Background64" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 672 )
+
+[node name="Background63" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 928 )
+
+[node name="Background62" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 928 )
+
+[node name="Background61" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 928 )
+
+[node name="Background60" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 1184 )
+
+[node name="Background59" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 1184 )
+
+[node name="Background58" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 1184 )
+
+[node name="Background57" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 1440 )
+
+[node name="Background56" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 1440 )
+
+[node name="Background55" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 1440 )
+
+[node name="Background54" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 1696 )
+
+[node name="Background53" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 1696 )
+
+[node name="Background52" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 1696 )
+
+[node name="Background51" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 1952 )
+
+[node name="Background50" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 1952 )
+
+[node name="Background49" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 1952 )
+
+[node name="Background48" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 2208 )
+
+[node name="Background47" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 2208 )
+
+[node name="Background46" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 2208 )
+
+[node name="Background45" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 2464 )
+
+[node name="Background44" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 2464 )
+
+[node name="Background43" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 2464 )
+
+[node name="Background42" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 2720 )
+
+[node name="Background41" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 2720 )
+
+[node name="Background40" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 2720 )
+
+[node name="Background39" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1440, 2976 )
+
+[node name="Background38" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1184, 2976 )
+
+[node name="Background37" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 928, 2976 )
+
+[node name="Background108" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 160 )
+
+[node name="Background107" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 160 )
+
+[node name="Background106" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 160 )
+
+[node name="Background105" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 416 )
+
+[node name="Background104" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 416 )
+
+[node name="Background103" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 416 )
+
+[node name="Background102" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 672 )
+
+[node name="Background101" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 672 )
+
+[node name="Background100" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 672 )
+
+[node name="Background99" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 928 )
+
+[node name="Background98" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 928 )
+
+[node name="Background97" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 928 )
+
+[node name="Background96" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 1184 )
+
+[node name="Background95" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 1184 )
+
+[node name="Background94" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 1184 )
+
+[node name="Background93" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 1440 )
+
+[node name="Background92" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 1440 )
+
+[node name="Background91" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 1440 )
+
+[node name="Background90" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 1696 )
+
+[node name="Background89" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 1696 )
+
+[node name="Background88" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 1696 )
+
+[node name="Background87" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 1952 )
+
+[node name="Background86" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 1952 )
+
+[node name="Background85" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 1952 )
+
+[node name="Background84" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 2208 )
+
+[node name="Background83" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 2208 )
+
+[node name="Background82" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 2208 )
+
+[node name="Background81" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 2464 )
+
+[node name="Background80" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 2464 )
+
+[node name="Background79" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 2464 )
+
+[node name="Background78" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 2720 )
+
+[node name="Background77" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 2720 )
+
+[node name="Background76" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 2720 )
+
+[node name="Background75" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2208, 2976 )
+
+[node name="Background74" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1952, 2976 )
+
+[node name="Background73" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 1696, 2976 )
+
+[node name="Background144" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 160 )
+
+[node name="Background143" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 160 )
+
+[node name="Background142" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 160 )
+
+[node name="Background141" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 416 )
+
+[node name="Background140" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 416 )
+
+[node name="Background139" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 416 )
+
+[node name="Background138" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 672 )
+
+[node name="Background137" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 672 )
+
+[node name="Background136" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 672 )
+
+[node name="Background135" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 928 )
+
+[node name="Background134" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 928 )
+
+[node name="Background133" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 928 )
+
+[node name="Background132" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 1184 )
+
+[node name="Background131" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 1184 )
+
+[node name="Background130" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 1184 )
+
+[node name="Background129" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 1440 )
+
+[node name="Background128" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 1440 )
+
+[node name="Background127" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 1440 )
+
+[node name="Background126" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 1696 )
+
+[node name="Background125" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 1696 )
+
+[node name="Background124" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 1696 )
+
+[node name="Background123" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 1952 )
+
+[node name="Background122" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 1952 )
+
+[node name="Background121" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 1952 )
+
+[node name="Background120" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 2208 )
+
+[node name="Background119" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 2208 )
+
+[node name="Background118" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 2208 )
+
+[node name="Background117" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 2464 )
+
+[node name="Background116" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 2464 )
+
+[node name="Background115" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 2464 )
+
+[node name="Background114" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 2720 )
+
+[node name="Background113" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 2720 )
+
+[node name="Background112" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 2720 )
+
+[node name="Background111" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2976, 2976 )
+
+[node name="Background110" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2720, 2976 )
+
+[node name="Background109" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 2464, 2976 )
+
+[node name="Background180" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 160 )
+
+[node name="Background179" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 160 )
+
+[node name="Background178" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 160 )
+
+[node name="Background177" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 416 )
+
+[node name="Background176" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 416 )
+
+[node name="Background175" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 416 )
+
+[node name="Background174" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 672 )
+
+[node name="Background173" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 672 )
+
+[node name="Background172" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 672 )
+
+[node name="Background171" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 928 )
+
+[node name="Background170" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 928 )
+
+[node name="Background169" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 928 )
+
+[node name="Background168" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 1184 )
+
+[node name="Background167" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 1184 )
+
+[node name="Background166" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 1184 )
+
+[node name="Background165" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 1440 )
+
+[node name="Background164" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 1440 )
+
+[node name="Background163" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 1440 )
+
+[node name="Background162" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 1696 )
+
+[node name="Background161" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 1696 )
+
+[node name="Background160" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 1696 )
+
+[node name="Background159" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 1952 )
+
+[node name="Background158" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 1952 )
+
+[node name="Background157" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 1952 )
+
+[node name="Background156" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 2208 )
+
+[node name="Background155" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 2208 )
+
+[node name="Background154" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 2208 )
+
+[node name="Background153" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 2464 )
+
+[node name="Background152" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 2464 )
+
+[node name="Background151" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 2464 )
+
+[node name="Background150" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 2720 )
+
+[node name="Background149" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 2720 )
+
+[node name="Background148" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 2720 )
+
+[node name="Background147" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3744, 2976 )
+
+[node name="Background146" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3488, 2976 )
+
+[node name="Background145" parent="Background" instance=ExtResource( 4 )]
+show_behind_parent = true
+light_mask = 0
+position = Vector2( 3232, 2976 )
